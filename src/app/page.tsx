@@ -11,6 +11,7 @@ import Navbar from "@/components/sections/navbar";
 import Reveal from "@/components/animations/reveal";
 import CopyrightYear from "@/components/ui/copyright-year";
 import ContactForm from "@/components/sections/contact-form";
+import About from "@/components/sections/about";
 
 import {
   StaggerContainer,
@@ -233,20 +234,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section
-        id="about"
-        className="container-main scroll-mt-20 border-t border-[var(--border)] py-20 sm:py-24"
-      >
-        <Reveal>
-          <h2 className="font-display text-3xl font-bold sm:text-4xl">
-            {t.about.title}
-          </h2>
-
-          <p className="mt-5 max-w-2xl leading-8 text-[var(--muted)]">
-            {t.about.description}
-          </p>
-        </Reveal>
-      </section>
+      <About />
 
 
       {/* CONTACT */}

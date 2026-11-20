@@ -92,11 +92,92 @@ const translations = {
             tagline: "From Ideas to Applications.",
         },
 
+
         about: {
-            title: "Built around your ideas.",
+            eyebrow: "GET TO KNOW MEINOVA",
+            title: "Every great idea",
+            titleAccent: "deserves to exist.",
             description:
-                "MeiNova brings together design, development and creative thinking to help turn ambitious ideas into useful digital experiences.",
+                "At MeiNova, we believe technology and creativity can turn possibilities into reality. We bring ideas to life through thoughtful design, modern development and intelligent digital solutions.",
+
+            storyLabel: "OUR STORY",
+            storyTitle: "Built around ideas. Driven by possibilities.",
+            storyDescription:
+                "Every meaningful product starts with an idea. Our approach is to give that idea the right combination of creativity, technology and thoughtful execution.",
+            tagline: "From Ideas to Applications.",
+
+            visionLabel: "OUR VISION",
+            visionTitle: "Think Beyond.",
+            visionDescription:
+                "Making innovative digital experiences more accessible to businesses and individuals.",
+
+            missionLabel: "OUR MISSION",
+            missionTitle: "Make It Real.",
+            missionDescription:
+                "Turning ambitious ideas into useful, beautiful and practical digital solutions.",
+
+            capabilitiesLabel: "WHAT WE BRING",
+            capabilitiesTitle: "One creative partner. Multiple possibilities.",
+            capabilitiesDescription:
+                "A combination of creative thinking and technology to help bring your next idea to life.",
+
+            capabilities: [
+                {
+                    title: "Creative Design",
+                    description: "Crafting beautiful and meaningful digital experiences.",
+                },
+                {
+                    title: "Web Development",
+                    description: "Building modern, responsive and powerful websites.",
+                },
+                {
+                    title: "AI Solutions",
+                    description: "Smart solutions that simplify everyday workflows.",
+                },
+                {
+                    title: "App Development",
+                    description: "Turning ideas into practical digital applications.",
+                },
+                {
+                    title: "Digital Growth",
+                    description: "Helping businesses build a stronger digital presence.",
+                },
+                {
+                    title: "Custom Solutions",
+                    description: "Technology shaped around your unique requirements.",
+                },
+            ],
+
+            processLabel: "HOW WE WORK",
+            processTitle: "From idea to reality.",
+            processDescription:
+                "A thoughtful process that transforms possibilities into meaningful digital experiences.",
+
+            process: [
+                {
+                    title: "Discover",
+                    description: "We understand your ideas, goals and challenges.",
+                },
+                {
+                    title: "Imagine",
+                    description: "We explore the right creative direction and strategy.",
+                },
+                {
+                    title: "Create",
+                    description: "We transform the concept into a working experience.",
+                },
+                {
+                    title: "Refine",
+                    description: "We polish the details and improve the final result.",
+                },
+            ],
+
+            ctaTitle: "Have an idea worth building?",
+            ctaDescription:
+                "Let's turn your next big idea into something real. We'd love to hear what you're imagining.",
+            ctaButton: "Let's Talk",
         },
+
 
         contact: {
             eyebrow: "LET'S CREATE SOMETHING MEANINGFUL",
@@ -255,11 +336,92 @@ const translations = {
             tagline: "யோசனைகளிலிருந்து செயலிகளுக்கு.",
         },
 
+
         about: {
-            title: "உங்கள் யோசனைகளை மையமாகக் கொண்டு.",
+            eyebrow: "MEINOVA பற்றி அறிந்து கொள்ளுங்கள்",
+            title: "ஒவ்வொரு சிறந்த யோசனையும்",
+            titleAccent: "நிஜமாக வேண்டும்.",
             description:
-                "வடிவமைப்பு, மென்பொருள் உருவாக்கம் மற்றும் படைப்பாற்றல் சிந்தனையை ஒன்றிணைத்து, உங்கள் சிறந்த யோசனைகளை பயனுள்ள டிஜிட்டல் அனுபவங்களாக மாற்ற MeiNova உதவுகிறது.",
+                "தொழில்நுட்பமும் படைப்பாற்றலும் ஒன்றிணைந்து புதிய சாத்தியங்களை உருவாக்கும் என்று MeiNova நம்புகிறது. சிந்தனையுடன் கூடிய வடிவமைப்பு, நவீன மென்பொருள் உருவாக்கம் மற்றும் புத்திசாலித்தனமான டிஜிட்டல் தீர்வுகள் மூலம் யோசனைகளை நிஜமாக்குகிறோம்.",
+
+            storyLabel: "எங்கள் கதை",
+            storyTitle: "யோசனைகளை மையமாகக் கொண்டு, சாத்தியங்களை நோக்கி.",
+            storyDescription:
+                "ஒவ்வொரு அர்த்தமுள்ள தயாரிப்பும் ஒரு யோசனையிலிருந்து தொடங்குகிறது. அந்த யோசனைக்கு படைப்பாற்றல், தொழில்நுட்பம் மற்றும் கவனமான செயலாக்கத்தை இணைப்பதே எங்கள் அணுகுமுறை.",
+            tagline: "யோசனைகளிலிருந்து செயலிகளுக்கு.",
+
+            visionLabel: "எங்கள் தொலைநோக்கு",
+            visionTitle: "எல்லைகளைத் தாண்டி சிந்திப்போம்.",
+            visionDescription:
+                "புதுமையான டிஜிட்டல் அனுபவங்களை வணிகங்களுக்கும் தனிநபர்களுக்கும் எளிதில் அணுகக்கூடியதாக மாற்றுதல்.",
+
+            missionLabel: "எங்கள் நோக்கம்",
+            missionTitle: "யோசனைகளை நிஜமாக்குவோம்.",
+            missionDescription:
+                "சிறந்த யோசனைகளை பயனுள்ள, அழகான மற்றும் நடைமுறை டிஜிட்டல் தீர்வுகளாக மாற்றுதல்.",
+
+            capabilitiesLabel: "எங்கள் திறன்கள்",
+            capabilitiesTitle: "ஒரே படைப்பாற்றல் கூட்டாளர். பல சாத்தியங்கள்.",
+            capabilitiesDescription:
+                "உங்கள் அடுத்த யோசனையை நிஜமாக்க படைப்பாற்றலையும் தொழில்நுட்பத்தையும் ஒன்றிணைக்கிறோம்.",
+
+            capabilities: [
+                {
+                    title: "படைப்பாற்றல் வடிவமைப்பு",
+                    description: "அழகான மற்றும் அர்த்தமுள்ள டிஜிட்டல் அனுபவங்களை உருவாக்குதல்.",
+                },
+                {
+                    title: "இணையதள மேம்பாடு",
+                    description: "நவீன மற்றும் அனைத்து சாதனங்களுக்கும் ஏற்ற இணையதளங்களை உருவாக்குதல்.",
+                },
+                {
+                    title: "AI தீர்வுகள்",
+                    description: "அன்றாட செயல்முறைகளை எளிமையாக்கும் புத்திசாலித்தனமான தீர்வுகள்.",
+                },
+                {
+                    title: "செயலி உருவாக்கம்",
+                    description: "யோசனைகளை நடைமுறைக்கு ஏற்ற டிஜிட்டல் செயலிகளாக மாற்றுதல்.",
+                },
+                {
+                    title: "டிஜிட்டல் வளர்ச்சி",
+                    description: "உங்கள் வணிகத்தின் டிஜிட்டல் இருப்பை மேம்படுத்துதல்.",
+                },
+                {
+                    title: "தனிப்பயன் தீர்வுகள்",
+                    description: "உங்கள் தேவைகளுக்கு ஏற்ற தனித்துவமான தொழில்நுட்பத் தீர்வுகள்.",
+                },
+            ],
+
+            processLabel: "எங்கள் செயல்முறை",
+            processTitle: "யோசனையிலிருந்து நிஜம் வரை.",
+            processDescription:
+                "புதிய சாத்தியங்களை அர்த்தமுள்ள டிஜிட்டல் அனுபவங்களாக மாற்றும் கவனமான செயல்முறை.",
+
+            process: [
+                {
+                    title: "கண்டறிதல்",
+                    description: "உங்கள் யோசனைகள், இலக்குகள் மற்றும் சவால்களைப் புரிந்துகொள்கிறோம்.",
+                },
+                {
+                    title: "திட்டமிடல்",
+                    description: "சரியான படைப்பாற்றல் அணுகுமுறையையும் திட்டத்தையும் உருவாக்குகிறோம்.",
+                },
+                {
+                    title: "உருவாக்குதல்",
+                    description: "உங்கள் யோசனையைச் செயல்படும் அனுபவமாக மாற்றுகிறோம்.",
+                },
+                {
+                    title: "மேம்படுத்துதல்",
+                    description: "ஒவ்வொரு விவரத்தையும் செம்மைப்படுத்தி மேம்படுத்துகிறோம்.",
+                },
+            ],
+
+            ctaTitle: "உங்களிடம் உருவாக்க வேண்டிய ஒரு யோசனை உள்ளதா?",
+            ctaDescription:
+                "உங்கள் அடுத்த சிறந்த யோசனையை நிஜமாக்குவோம். உங்கள் எண்ணங்களைக் கேட்க நாங்கள் ஆவலாக இருக்கிறோம்.",
+            ctaButton: "பேசலாம்",
         },
+
 
         contact: {
             eyebrow: "அர்த்தமுள்ள ஒன்றை உருவாக்குவோம்",
