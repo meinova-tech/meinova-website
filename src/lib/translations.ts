@@ -65,6 +65,60 @@ const translations = {
             discuss: "Discuss your idea",
         },
 
+        process: {
+            eyebrow: "HOW WE WORK",
+            title: "From imagination",
+            titleAccent: "to reality.",
+            description:
+                "Every great project starts with an idea. Here's how we turn yours into something real.",
+            steps: [
+                {
+                    title: "Discover",
+                    description:
+                        "We understand your idea, goals, audience and requirements.",
+                },
+                {
+                    title: "Design",
+                    description:
+                        "We transform your vision into a beautiful and intuitive experience.",
+                },
+                {
+                    title: "Build",
+                    description:
+                        "We bring your design to life using modern technologies.",
+                },
+                {
+                    title: "Launch",
+                    description:
+                        "We test, refine and bring your finished product to the world.",
+                },
+            ],
+        },
+
+        experiences: {
+            eyebrow: "MADE TO BE EXPERIENCED",
+            title: "Beyond websites.",
+            titleAccent: "Into experiences.",
+            description:
+                "Explore creative digital experiences designed to feel personal, memorable and alive.",
+            portfolio: {
+                label: "PORTFOLIO EXPERIENCE",
+                title: "Your story. Your space.",
+                description:
+                    "A personal portfolio that brings your work, personality and story together with motion and interactive details.",
+                features: ["Interactive", "Motion-led", "Personal"],
+                button: "Explore Portfolio",
+            },
+            wedding: {
+                label: "WEDDING EXPERIENCE",
+                title: "A celebration in every scroll.",
+                description:
+                    "An elegant digital invitation with beautiful opening moments, wedding details, countdown and RSVP.",
+                features: ["Animated invite", "Countdown", "RSVP"],
+                button: "Explore Invitation",
+            },
+        },
+
         ideas: {
             eyebrow: "Have a project in mind?",
             title: "Your next big idea",
@@ -307,6 +361,60 @@ const translations = {
                 },
             ],
             discuss: "உங்கள் யோசனையைப் பற்றி பேசலாம்",
+        },
+
+        process: {
+            eyebrow: "எங்கள் செயல்முறை",
+            title: "யோசனையிலிருந்து",
+            titleAccent: "நிஜத்திற்கு.",
+            description:
+                "ஒவ்வொரு சிறந்த திட்டமும் ஒரு யோசனையிலிருந்து தொடங்குகிறது. அதை நனவாக்க எங்களின் செயல்முறை.",
+            steps: [
+                {
+                    title: "கண்டறிதல்",
+                    description:
+                        "உங்கள் யோசனை, இலக்குகள் மற்றும் தேவைகளைப் புரிந்துகொள்கிறோம்.",
+                },
+                {
+                    title: "வடிவமைத்தல்",
+                    description:
+                        "உங்கள் யோசனையை அழகான வடிவமைப்பு மற்றும் அனுபவமாக மாற்றுகிறோம்.",
+                },
+                {
+                    title: "உருவாக்குதல்",
+                    description:
+                        "நவீன தொழில்நுட்பங்களைப் பயன்படுத்தி உங்கள் தயாரிப்பை உருவாக்குகிறோம்.",
+                },
+                {
+                    title: "வெளியிடுதல்",
+                    description:
+                        "சோதித்து, மேம்படுத்தி, உங்கள் திட்டத்தை உலகிற்கு அறிமுகப்படுத்துகிறோம்.",
+                },
+            ],
+        },
+
+        experiences: {
+            eyebrow: "அனுபவித்து பார்க்க உருவாக்கப்பட்டது",
+            title: "இணையதளங்களைத் தாண்டி.",
+            titleAccent: "அனுபவங்களுக்குள்.",
+            description:
+                "தனித்துவமான, மறக்க முடியாத மற்றும் உயிரோட்டமுள்ள டிஜிட்டல் அனுபவங்களைப் பாருங்கள்.",
+            portfolio: {
+                label: "போர்ட்ஃபோலியோ அனுபவம்",
+                title: "உங்கள் கதை. உங்கள் உலகம்.",
+                description:
+                    "உங்கள் படைப்புகள், தனித்துவம் மற்றும் கதையை அனிமேஷன் மற்றும் ஊடாடும் அம்சங்களுடன் வெளிப்படுத்தும் தனிப்பட்ட போர்ட்ஃபோலியோ.",
+                features: ["ஊடாடும்", "அனிமேஷன்", "தனிப்பட்ட"],
+                button: "போர்ட்ஃபோலியோவைப் பார்க்கவும்",
+            },
+            wedding: {
+                label: "திருமண அழைப்பிதழ் அனுபவம்",
+                title: "ஒவ்வொரு ஸ்க்ரோலிலும் ஒரு கொண்டாட்டம்.",
+                description:
+                    "அழகான திறப்பு அனிமேஷன், திருமண விவரங்கள், கவுண்ட்டவுன் மற்றும் RSVP கொண்ட டிஜிட்டல் அழைப்பிதழ்.",
+                features: ["அனிமேஷன் அழைப்பு", "கவுண்ட்டவுன்", "RSVP"],
+                button: "அழைப்பிதழைப் பார்க்கவும்",
+            },
         },
 
         ideas: {

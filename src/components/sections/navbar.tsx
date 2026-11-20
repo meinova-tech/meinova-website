@@ -14,6 +14,7 @@ import {
 
 import { useLanguage } from "@/components/providers/language-provider";
 import translations from "@/lib/translations";
+import Image from "next/image";
 
 const navLinks = [
   { key: "services", href: "#services" },
@@ -64,7 +65,16 @@ export default function Navbar() {
           className="shrink-0 font-display text-2xl font-bold tracking-tight"
           onClick={() => setMenuOpen(false)}
         >
-          Mei<span className="gradient-text">Nova.</span>
+          <div className="relative h-14 w-44 max-w-full">
+            <Image
+              src="/images/MEINOVA-LOGO.png"
+              alt="MeiNova logo"
+              fill
+              priority
+              sizes="176px"
+              className="object-contain object-left"
+            />
+          </div>
         </Link>
 
         {/* Desktop navigation */}

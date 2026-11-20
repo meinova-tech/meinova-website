@@ -9,35 +9,18 @@ import translations from "@/lib/translations";
 import Hero from "@/components/sections/hero";
 import Navbar from "@/components/sections/navbar";
 import Reveal from "@/components/animations/reveal";
-import CopyrightYear from "@/components/ui/copyright-year";
 import ContactForm from "@/components/sections/contact-form";
 import About from "@/components/sections/about";
-
-import {
-  StaggerContainer,
-  StaggerItem,
-} from "@/components/animations/stagger-container";
+import Services from "@/components/sections/services";
+import Experiences from "@/components/sections/experiences";
+import Footer from "@/components/sections/footer";
 
 import {
   ArrowUpRight,
-  Code2,
-  Smartphone,
-  Palette,
-  BrainCircuit,
-  ShoppingBag,
   Mail,
   MessageCircle,
   Sparkles,
 } from "lucide-react";
-
-const serviceIcons = [
-  Code2,
-  Smartphone,
-  Palette,
-  BrainCircuit,
-  ShoppingBag,
-  Sparkles,
-];
 
 export default function Home() {
   const { language } = useLanguage();
@@ -53,73 +36,8 @@ export default function Home() {
       <Hero />
 
       {/* SERVICES */}
-      <section
-        id="services"
-        className="container-main scroll-mt-20 py-20 sm:py-24 lg:py-28"
-      >
-        <Reveal>
-          <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
-            <div>
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[var(--accent)]">
-                {t.services.eyebrow}
-              </p>
-
-              <h2 className="font-display text-4xl font-bold sm:text-5xl">
-                {t.services.title}
-                <br />
-                <span className="gradient-text">
-                  {t.services.titleAccent}
-                </span>
-              </h2>
-            </div>
-
-            <p className="max-w-md leading-7 text-[var(--muted)]">
-              {t.services.description}
-            </p>
-          </div>
-        </Reveal>
-
-        <StaggerContainer className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {t.services.items.map((service, index) => {
-            const Icon = serviceIcons[index];
-
-            return (
-              <StaggerItem key={index}>
-                <article className="group relative h-full overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all duration-500 ease-out hover:-translate-y-2 hover:border-violet-400/50 hover:shadow-[0_20px_60px_rgba(128,107,255,0.14)] sm:p-7">
-                  <div className="mb-10 flex items-center justify-between">
-                    <div className="rounded-xl bg-violet-500/10 p-3 text-violet-400 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:bg-violet-500/20 group-hover:text-cyan-300">
-                      <Icon size={25} />
-                    </div>
-
-                    <span className="text-sm text-[var(--muted)]">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                  </div>
-
-                  <h3 className="mb-3 font-display text-xl font-semibold transition-colors duration-300 group-hover:text-violet-300">
-                    {service.title}
-                  </h3>
-
-                  <p className="min-h-14 text-sm leading-7 text-[var(--muted)]">
-                    {service.description}
-                  </p>
-
-                  <Link
-                    href="/#contact"
-                    className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-[var(--accent)]"
-                  >
-                    {t.services.discuss}
-                    <ArrowUpRight
-                      size={16}
-                      className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1"
-                    />
-                  </Link>
-                </article>
-              </StaggerItem>
-            );
-          })}
-        </StaggerContainer>
-      </section>
+      <Services />
+      <Experiences />
 
       {/* IDEAS */}
       <section
@@ -335,24 +253,7 @@ export default function Home() {
 
 
       {/* FOOTER */}
-      <footer className="border-t border-[var(--border)]">
-        <div className="container-main flex flex-col justify-between gap-5 py-10 sm:flex-row sm:items-center">
-          <Link
-            href="/"
-            className="font-display text-xl font-bold"
-          >
-            Mei<span className="gradient-text">Nova.</span>
-          </Link>
-
-          <p className="text-sm text-[var(--muted)]">
-            {t.footer.tagline}
-          </p>
-
-          <p className="text-sm text-[var(--muted)]">
-            <CopyrightYear />
-          </p>
-        </div>
-      </footer>
+      <Footer />
 
     </main>
   );
