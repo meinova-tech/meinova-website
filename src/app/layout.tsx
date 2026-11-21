@@ -42,6 +42,9 @@ export const metadata: Metadata = {
   authors: [{ name: "MeiNova" }],
   creator: "MeiNova",
   publisher: "MeiNova",
+  verification: {
+    google: "HocFgJdmJvfECxb9XXeUXbGrCMC6dpevAuyozuoa7t4",
+  },
   keywords: [
     "MeiNova",
     "Web Development",
