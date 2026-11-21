@@ -32,16 +32,20 @@ const notoTamil = Noto_Sans_Tamil({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://meinova.vercel.app"),
   title: {
-    default: "MeiNova | From Ideas to Applications",
+    default: "MeiNova | Web, App & AI Development Agency",
     template: "%s | MeiNova",
   },
   description:
-    "MeiNova transforms ideas into digital experiences through web development, mobile applications, UI/UX design, e-commerce development and AI solutions.",
+    "MeiNova builds modern websites, mobile apps, e-commerce platforms and AI solutions for businesses worldwide. Transform your ideas into digital experiences.",
   applicationName: "MeiNova",
   authors: [{ name: "MeiNova" }],
   creator: "MeiNova",
   publisher: "MeiNova",
+  alternates: {
+    canonical: "https://meinova.vercel.app/",
+  },
   verification: {
     google: "HocFgJdmJvfECxb9XXeUXbGrCMC6dpevAuyozuoa7t4",
   },
@@ -61,16 +65,23 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    title: "MeiNova | From Ideas to Applications",
+    title: "MeiNova | Web, App & AI Development Agency",
     description:
       "We design and develop digital experiences that help businesses grow, from websites and mobile apps to AI-powered solutions.",
     siteName: "MeiNova",
+    images: [
+      {
+        url: "/images/og-image.png",
+        alt: "MeiNova - Ideas Into Innovation",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
-    title: "MeiNova | From Ideas to Applications",
+    card: "summary_large_image",
+    title: "MeiNova | Web, App & AI Development Agency",
     description:
       "Turning imagination into digital reality through web development, mobile apps, UI/UX and AI solutions.",
+    images: ["/images/og-image.png"],
   },
 };
 
