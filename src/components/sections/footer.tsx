@@ -192,13 +192,19 @@ export default function Footer() {
                         {isTamil ? "MeiNova மூலம்" : "by MeiNova"}
                     </p>
 
-                    <Link
-                        href="#"
+                    <button
+                        type="button"
                         aria-label={isTamil ? "மேலே செல்லவும்" : "Back to top"}
+                        onClick={() => {
+                            window.scrollTo({
+                                top: 0,
+                                behavior: "smooth",
+                            });
+                        }}
                         className="inline-flex min-h-11 min-w-11 items-center justify-center self-start rounded-full border border-[var(--border)] text-[var(--muted)] transition-all hover:border-[var(--accent)] hover:text-[var(--accent)] sm:self-auto"
                     >
                         <ArrowUp size={18} />
-                    </Link>
+                    </button>
                 </div>
             </div>
         </footer>

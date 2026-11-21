@@ -78,7 +78,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop navigation */}
-        <nav className="hidden items-center gap-8 text-sm text-[var(--muted)] md:flex">
+        <nav className="hidden items-center gap-8 text-sm font-bold text-[var(--muted)] md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -119,9 +119,11 @@ export default function Navbar() {
                   : "Switch to dark mode"
             }
             title={
-              theme === "dark"
-                ? "Switch to light mode"
-                : "Switch to dark mode"
+              !mounted
+                ? "Change color theme"
+                : theme === "dark"
+                  ? "Switch to light mode"
+                  : "Switch to dark mode"
             }
             className="flex h-11 w-11 items-center justify-center rounded-xl border border-[var(--border)] text-[var(--foreground)] transition hover:border-[var(--accent)] hover:bg-[var(--surface-hover)] disabled:cursor-wait"
           >

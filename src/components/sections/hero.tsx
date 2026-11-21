@@ -140,7 +140,10 @@ export default function Hero() {
                 delay: 0.15,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              className="font-display text-4xl font-bold leading-[1.2] tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
+              className={`font-display font-bold tracking-tight ${language === "ta"
+                  ? "text-3xl leading-[1.5] sm:text-4xl md:text-5xl lg:text-6xl"
+                  : "text-4xl leading-[1.2] sm:text-5xl md:text-6xl lg:text-7xl"
+                }`}
             >
               {t.heading}
               <br />
