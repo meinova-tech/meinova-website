@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     siteName: "MeiNova",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/og-image.jpg",
         alt: "MeiNova - Ideas Into Innovation",
       },
     ],
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     title: "MeiNova | Web, App & AI Development Agency",
     description:
       "Turning imagination into digital reality through web development, mobile apps, UI/UX and AI solutions.",
-    images: ["/images/og-image.png"],
+    images: ["/images/og-image.jpg"],
   },
 };
 
