@@ -9,8 +9,11 @@ import {
 import SmoothScroll from "@/components/providers/smooth-scroll";
 import ThemeProvider from "@/components/providers/theme-provider";
 import LanguageProvider from "@/components/providers/language-provider";
+import Script from "next/script";
 
 import "./globals.css";
+
+const GA_ID = "G-39GW7MD3TM";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -96,6 +99,19 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} ${notoTamil.variable} antialiased`}
       >
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${GA_ID}');
+  `}
+        </Script>
         <ThemeProvider>
           <LanguageProvider>
             <SmoothScroll>{children}</SmoothScroll>
